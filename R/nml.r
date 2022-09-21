@@ -22,7 +22,7 @@ nml_load_default <- function() {
     ir_scatt_model = 1,
     vis_scatt_model = 1,
     dom_nstreams = 8,
-    dom_rayleigh = FALSE
+    dom_rayleigh = TRUE
   )
 
   # RTTOV information
