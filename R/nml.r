@@ -8,7 +8,8 @@ nml_load_default <- function() {
   # General parameters
   l$general <- list(
     fname_in = NA,
-    fname_out = paste0(Sys.getenv("HOME"), "/s3com_output.nc"),
+    path_out = "./",
+    suffix_out = "",
     month = 1,
     flag_retrievals = FALSE,
     npoints_it = 1,
