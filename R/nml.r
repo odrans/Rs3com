@@ -12,6 +12,7 @@ nml_load_default <- function() {
     suffix_out = "",
     month = 1,
     flag_retrievals = FALSE,
+    flag_output_atm = FALSE,
     npoints_it = 1,
     nchannels = 2
   )
@@ -24,6 +25,7 @@ nml_load_default <- function() {
     vis_scatt_model = 1,
     dom_nstreams = 8,
     dom_rayleigh = TRUE
+    rttov_nthreads = 1
   )
 
   # RTTOV information
